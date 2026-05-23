@@ -1,0 +1,36 @@
+name: Feature request / feedback
+description: Suggest an improvement or send product feedback.
+title: "[Feedback]: "
+labels: [feedback]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Do not paste source code, raw logs, prompts, terminal output, license keys, API tokens, payment data, or secrets.
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem are you trying to solve?
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: What would you like VibeCat to do?
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - Agent monitoring
+        - Permissions / approvals
+        - Terminal switching
+        - Usage display
+        - Billing / license
+        - Updates
+        - Diagnostics
+        - Other
+    validations:
+      required: true
