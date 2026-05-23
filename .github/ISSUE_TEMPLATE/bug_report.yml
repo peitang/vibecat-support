@@ -1,0 +1,61 @@
+name: Bug report
+description: Report a VibeCat issue without sharing source code or secrets.
+title: "[Bug]: "
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting a VibeCat issue. Do not paste source code, raw logs, prompts, terminal output, license keys, API tokens, payment data, or secrets.
+  - type: input
+    id: app-version
+    attributes:
+      label: VibeCat version
+      description: Find this in Settings > About.
+      placeholder: "5.1.2"
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - Installation / update
+        - Billing / license
+        - Claude integration
+        - Codex integration
+        - Gemini integration
+        - Aider integration
+        - Terminal switching
+        - Diagnostics / report
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect?
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: What happened instead?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Keep this high level. Do not include private source code, prompts, raw logs, or secrets.
+      placeholder: "1. Open Settings > About\n2. Click ...\n3. See ..."
+    validations:
+      required: true
+  - type: textarea
+    id: diagnostics
+    attributes:
+      label: Diagnostic report
+      description: Optional. Export from VibeCat, review it locally, then attach it manually if it contains no private data.
+      placeholder: "Attach the reviewed diagnostic report file here if relevant."
+    validations:
+      required: false
