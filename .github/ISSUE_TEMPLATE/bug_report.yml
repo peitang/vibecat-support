@@ -1,5 +1,5 @@
-name: Bug report
-description: Report a VibeCat issue without sharing source code or secrets.
+name: Bug report / 問題回報
+description: Report a VibeCat issue without sharing source code or secrets. / 回報 VibeCat 問題，請勿分享原始碼或機密資訊。
 title: "[Bug]: "
 labels: [bug]
 body:
@@ -7,29 +7,32 @@ body:
     attributes:
       value: |
         Thanks for reporting a VibeCat issue.
+        感謝您回報 VibeCat 問題。
 
         Please include only public-safe information. Do not paste source code, prompts, terminal transcripts, license keys, API tokens, payment data, or secrets. Logs, screenshots, and recordings are optional, but review/redact them before posting.
+
+        請僅提供可公開的資訊。請勿貼上原始碼、提示詞、終端機紀錄、授權金鑰、API token、付款資料或任何機密內容。記錄檔、截圖與錄影為選填，貼出前請先檢查並遮蔽敏感內容。
   - type: input
     id: app-version
     attributes:
-      label: VibeCat version
-      description: Required. Find this in VibeCat > Settings > About.
+      label: VibeCat version / VibeCat 版本
+      description: "Required. Find this in VibeCat > Settings > About. / 必填。可在 VibeCat > Settings > About 中找到。"
       placeholder: "0.5.2"
     validations:
       required: true
   - type: input
     id: os-version
     attributes:
-      label: OS version
-      description: Required. Include Windows version and build if you know it.
+      label: OS version / 作業系統版本
+      description: "Required. Include Windows version and build if you know it. / 必填。若知道 Windows 版本與 build 號請一併填寫。"
       placeholder: "Windows 11 24H2 build 26100"
     validations:
       required: true
   - type: dropdown
     id: cli-tool
     attributes:
-      label: CLI/tool involved
-      description: Required. Pick the main tool affected by this issue.
+      label: CLI/tool involved / 涉及的 CLI 工具
+      description: "Required. Pick the main tool affected by this issue. / 必填。請選擇此問題主要影響的工具。"
       options:
         - Aider
         - Claude Code
@@ -45,8 +48,8 @@ body:
   - type: dropdown
     id: host-app
     attributes:
-      label: Terminal or developer app
-      description: Required. Pick where the issue happened.
+      label: Terminal or developer app / 終端機或開發工具
+      description: "Required. Pick where the issue happened. / 必填。請選擇問題發生的環境。"
       options:
         - Command Prompt
         - Cursor terminal
@@ -60,40 +63,40 @@ body:
   - type: textarea
     id: problem
     attributes:
-      label: What happened?
-      description: Required. Describe the visible problem and what you expected to happen.
+      label: What happened? / 請說明發生什麼事？
+      description: "Required. Describe the visible problem and what you expected to happen. / 必填。請描述您看到的問題以及您預期的結果。"
       placeholder: "Example: I clicked a Codex session in VibeCat, but it did not switch to the matching Windows Terminal tab."
     validations:
       required: true
   - type: input
     id: support-id
     attributes:
-      label: Support ID
-      description: Optional. If you already used VibeCat > Settings > About > Create and Upload Support Bundle, paste the returned ID here.
+      label: Support ID / 支援代碼
+      description: "Optional. If you already used VibeCat > Settings > About > Create and Upload Support Bundle, paste the returned ID here. / 選填。若您已透過 VibeCat > Settings > About > Create and Upload Support Bundle 取得 ID，請貼在此處。"
       placeholder: "SUP-20260524-1A2B3C4D"
     validations:
       required: false
   - type: textarea
     id: steps
     attributes:
-      label: Steps to reproduce
-      description: Optional. High-level steps are enough.
+      label: Steps to reproduce / 重現步驟
+      description: "Optional. High-level steps are enough. / 選填。提供大致步驟即可。"
       placeholder: "1. Open ...\n2. Click ...\n3. See ..."
     validations:
       required: false
   - type: textarea
     id: logs
     attributes:
-      label: Public-safe logs
-      description: Optional. Paste only logs you have reviewed and redacted. Do not include secrets, prompts, source code, full terminal transcripts, paths to private repos, license keys, or API tokens.
+      label: Public-safe logs / 可公開的記錄檔
+      description: "Optional. Paste only logs you have reviewed and redacted. Do not include secrets, prompts, source code, full terminal transcripts, paths to private repos, license keys, or API tokens. / 選填。請僅貼上已檢查並遮蔽過的記錄內容。請勿包含機密資訊、提示詞、原始碼、完整終端機紀錄、私人 repo 路徑、授權金鑰或 API token。"
       placeholder: "Paste redacted log excerpts here, or write 'attached' if you attach a reviewed file."
     validations:
       required: false
   - type: textarea
     id: media
     attributes:
-      label: Screenshots or screen recording
-      description: Optional. Drag screenshots or recordings here if they help explain the issue. Review them first for private text, secrets, prompts, and file paths.
+      label: Screenshots or screen recording / 截圖或螢幕錄影
+      description: "Optional. Drag screenshots or recordings here if they help explain the issue. Review them first for private text, secrets, prompts, and file paths. / 選填。若有助於說明問題，可拖曳截圖或錄影到此處。上傳前請先檢查是否含有私人文字、機密、提示詞或檔案路徑。"
       placeholder: "Attach screenshots/recordings here, or describe what they show."
     validations:
       required: false

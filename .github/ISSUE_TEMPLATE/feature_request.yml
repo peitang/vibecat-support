@@ -1,5 +1,5 @@
-name: Feature request / feedback
-description: Suggest an improvement or send product feedback.
+name: Feature request / feedback / 功能建議 / 意見回饋
+description: Suggest an improvement or send product feedback. / 建議改進方向或提供產品回饋。
 title: "[Feedback]: "
 labels: [feedback]
 body:
@@ -7,30 +7,32 @@ body:
     attributes:
       value: |
         Do not paste source code, raw logs, prompts, terminal output, license keys, API tokens, payment data, or secrets.
+
+        請勿貼上原始碼、原始記錄檔、提示詞、終端機輸出、授權金鑰、API token、付款資料或任何機密內容。
   - type: input
     id: support-id
     attributes:
-      label: Support ID
-      description: Optional. If this feedback came from a support bundle, paste the SUP-YYYYMMDD-XXXXXXXX id here.
+      label: Support ID / 支援代碼
+      description: "Optional. If this feedback came from a support bundle, paste the SUP-YYYYMMDD-XXXXXXXX id here. / 選填。若此回饋來自 support bundle，請將 SUP-YYYYMMDD-XXXXXXXX 格式的 ID 貼於此處。"
       placeholder: "SUP-20260524-1A2B3C4D"
     validations:
       required: false
   - type: textarea
     id: problem
     attributes:
-      label: What problem are you trying to solve?
+      label: What problem are you trying to solve? / 您想解決什麼問題？
     validations:
       required: true
   - type: textarea
     id: idea
     attributes:
-      label: What would you like VibeCat to do?
+      label: What would you like VibeCat to do? / 您希望 VibeCat 怎麼做？
     validations:
       required: true
   - type: dropdown
     id: area
     attributes:
-      label: Area
+      label: Area / 相關範圍
       options:
         - Agent monitoring
         - Permissions / approvals

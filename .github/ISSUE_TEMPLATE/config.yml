@@ -1,5 +1,5 @@
 blank_issues_enabled: false
 contact_links:
-  - name: Security or private support
+  - name: Security or private support / 安全性或私人支援
     url: mailto:support@vibecat.app
-    about: Use email for private issues, security concerns, license keys, billing data, or anything containing secrets.
+    about: "Use email for private issues, security concerns, license keys, billing data, or anything containing secrets. / 涉及私人問題、安全性疑慮、授權金鑰、帳務資料或機密內容時，請改用 email 聯絡。"
