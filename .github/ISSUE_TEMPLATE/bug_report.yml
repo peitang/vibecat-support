@@ -14,7 +14,7 @@ body:
     attributes:
       label: VibeCat version
       description: Required. Find this in VibeCat > Settings > About.
-      placeholder: "5.1.2"
+      placeholder: "0.5.2"
     validations:
       required: true
   - type: input
