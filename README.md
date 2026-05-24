@@ -54,7 +54,6 @@ VibeCat sits above your Windows terminals and gives every AI coding agent a visi
 | Repository | Purpose |
 | --- | --- |
 | [`peitang/vibecat-support`](https://github.com/peitang/vibecat-support) | Public bug reports, feature requests, and support intake. |
-| `peitang/vibecat` | Private product source repository. Not used for public issue intake. |
 
 ## Supported Tools
 
