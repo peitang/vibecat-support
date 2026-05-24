@@ -47,7 +47,7 @@ VibeCat sits above your Windows terminals and gives every AI coding agent a visi
 2. Install and open the Windows app.
 3. Connect your supported coding tools from the VibeCat integrations/settings surface.
 4. Run your agent sessions as usual.
-5. Use this repo only when you need to report a bug, request a feature, or track public support issues.
+5. For bug reports, first create and upload a support bundle in VibeCat, then paste the returned `SUP-...` Support ID into the GitHub issue form.
 
 ## Repositories
 
@@ -77,7 +77,7 @@ Do **not** upload or paste:
 - License keys, API tokens, payment details, email addresses, or other secrets
 - Crash dumps or diagnostic reports you have not reviewed locally
 
-If support asks for diagnostics, export the VibeCat diagnostic report from the app, review it locally, and attach it manually only if it contains no private data.
+For bugs, use VibeCat's **Create and Upload Support Bundle** action and paste only the returned Support ID into GitHub. Do not attach raw diagnostic files unless support explicitly asks and you have reviewed them locally.
 
 ## Issue Templates
 

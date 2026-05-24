@@ -6,7 +6,17 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for reporting a VibeCat issue. Do not paste source code, raw logs, prompts, terminal output, license keys, API tokens, payment data, or secrets.
+        Before filing a bug, open VibeCat > Settings > About and choose "Create and Upload Support Bundle". Paste the returned Support ID below.
+
+        Do not paste source code, raw logs, prompts, terminal output, license keys, API tokens, payment data, or secrets.
+  - type: input
+    id: support-id
+    attributes:
+      label: Support ID
+      description: Required for bug triage. It should look like SUP-YYYYMMDD-XXXXXXXX.
+      placeholder: "SUP-20260524-1A2B3C4D"
+    validations:
+      required: true
   - type: input
     id: app-version
     attributes:
@@ -54,8 +64,8 @@ body:
   - type: textarea
     id: diagnostics
     attributes:
-      label: Diagnostic report
-      description: Optional. Export from VibeCat, review it locally, then attach it manually if it contains no private data.
-      placeholder: "Attach the reviewed diagnostic report file here if relevant."
+      label: Additional public-safe context
+      description: Optional. Only add high-level details. Do not attach raw logs, source code, prompts, terminal output, license keys, or payment data.
+      placeholder: "Anything else support should know without private data."
     validations:
       required: false

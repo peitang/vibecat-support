@@ -7,6 +7,14 @@ body:
     attributes:
       value: |
         Do not paste source code, raw logs, prompts, terminal output, license keys, API tokens, payment data, or secrets.
+  - type: input
+    id: support-id
+    attributes:
+      label: Support ID
+      description: Optional. If this feedback came from a support bundle, paste the SUP-YYYYMMDD-XXXXXXXX id here.
+      placeholder: "SUP-20260524-1A2B3C4D"
+    validations:
+      required: false
   - type: textarea
     id: problem
     attributes:
