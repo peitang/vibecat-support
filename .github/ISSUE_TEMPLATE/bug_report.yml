@@ -6,66 +6,95 @@ body:
   - type: markdown
     attributes:
       value: |
-        Before filing a bug, open VibeCat > Settings > About and choose "Create and Upload Support Bundle". Paste the returned Support ID below.
+        Thanks for reporting a VibeCat issue.
 
-        Do not paste source code, raw logs, prompts, terminal output, license keys, API tokens, payment data, or secrets.
-  - type: input
-    id: support-id
-    attributes:
-      label: Support ID
-      description: Required for bug triage. It should look like SUP-YYYYMMDD-XXXXXXXX.
-      placeholder: "SUP-20260524-1A2B3C4D"
-    validations:
-      required: true
+        Please include only public-safe information. Do not paste source code, prompts, terminal transcripts, license keys, API tokens, payment data, or secrets. Logs, screenshots, and recordings are optional, but review/redact them before posting.
   - type: input
     id: app-version
     attributes:
       label: VibeCat version
-      description: Find this in Settings > About.
+      description: Required. Find this in VibeCat > Settings > About.
       placeholder: "5.1.2"
     validations:
       required: true
+  - type: input
+    id: os-version
+    attributes:
+      label: OS version
+      description: Required. Include Windows/macOS version and build if you know it.
+      placeholder: "Windows 11 24H2 build 26100 / macOS 15.5"
+    validations:
+      required: true
   - type: dropdown
-    id: area
+    id: cli-tool
     attributes:
-      label: Area
+      label: CLI/tool involved
+      description: Required. Pick the main tool affected by this issue.
       options:
-        - Installation / update
-        - Billing / license
-        - Claude integration
-        - Codex integration
-        - Gemini integration
-        - Aider integration
-        - Terminal switching
-        - Diagnostics / report
-        - Other
+        - Claude Code
+        - Codex CLI
+        - Gemini CLI
+        - Aider
+        - Cursor
+        - VS Code
+        - VibeCat app only
+        - Other / not sure
+    validations:
+      required: true
+  - type: dropdown
+    id: host-app
+    attributes:
+      label: Terminal or developer app
+      description: Required. Pick where the issue happened.
+      options:
+        - Windows Terminal
+        - PowerShell
+        - Command Prompt
+        - VS Code terminal
+        - Cursor terminal
+        - WezTerm
+        - macOS Terminal
+        - iTerm2
+        - Other / not sure
     validations:
       required: true
   - type: textarea
-    id: expected
+    id: problem
     attributes:
-      label: What did you expect?
+      label: What happened?
+      description: Required. Describe the visible problem and what you expected to happen.
+      placeholder: "Example: I clicked a Codex session in VibeCat, but it did not switch to the matching Windows Terminal tab."
     validations:
       required: true
-  - type: textarea
-    id: actual
+  - type: input
+    id: support-id
     attributes:
-      label: What happened instead?
+      label: Support ID
+      description: Optional. If you already used VibeCat > Settings > About > Create and Upload Support Bundle, paste the returned ID here.
+      placeholder: "SUP-20260524-1A2B3C4D"
     validations:
-      required: true
+      required: false
   - type: textarea
     id: steps
     attributes:
       label: Steps to reproduce
-      description: Keep this high level. Do not include private source code, prompts, raw logs, or secrets.
-      placeholder: "1. Open Settings > About\n2. Click ...\n3. See ..."
+      description: Optional. High-level steps are enough.
+      placeholder: "1. Open ...\n2. Click ...\n3. See ..."
     validations:
-      required: true
+      required: false
   - type: textarea
-    id: diagnostics
+    id: logs
     attributes:
-      label: Additional public-safe context
-      description: Optional. Only add high-level details. Do not attach raw logs, source code, prompts, terminal output, license keys, or payment data.
-      placeholder: "Anything else support should know without private data."
+      label: Public-safe logs
+      description: Optional. Paste only logs you have reviewed and redacted. Do not include secrets, prompts, source code, full terminal transcripts, paths to private repos, license keys, or API tokens.
+      placeholder: "Paste redacted log excerpts here, or write 'attached' if you attach a reviewed file."
+    validations:
+      required: false
+  - type: textarea
+    id: media
+    attributes:
+      label: Screenshots or screen recording
+      description: Optional. Drag screenshots or recordings here if they help explain the issue. Review them first for private text, secrets, prompts, and file paths.
+      placeholder: "Attach screenshots/recordings here, or describe what they show."
     validations:
       required: false
