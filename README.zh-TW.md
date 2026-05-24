@@ -26,7 +26,6 @@
 <p align="center">
   <a href="https://vibecat.app"><img alt="Website" src="https://img.shields.io/badge/%E5%AE%98%E7%B6%B2-vibecat.app-4DA8FF?style=flat-square&labelColor=15171c"></a>
   <a href="https://vibecat.app/#download"><img alt="Download" src="https://img.shields.io/badge/%E4%B8%8B%E8%BC%89-Windows%2011-4DD9A8?style=flat-square&labelColor=15171c"></a>
-  <a href="https://vibecat.app/#pricing"><img alt="License" src="https://img.shields.io/badge/%E5%96%AE%E6%AC%A1%E8%B3%BC%E8%B2%B7-USD%2021.99-FFB347?style=flat-square&labelColor=15171c"></a>
   <a href="https://vibecat.app/transparency/"><img alt="Transparency" src="https://img.shields.io/badge/%E9%80%8F%E6%98%8E%E5%A0%B1%E5%91%8A-7B7BD1?style=flat-square&labelColor=15171c"></a>
 </p>
 
@@ -139,5 +138,5 @@
   為「同時跑多個編碼 agent」的 Windows 開發者打造。
 </p>
 <p align="center">
-  <sub><a href="https://vibecat.app">vibecat.app</a> · 3 天本機試用 · 單次購買 USD 21.99 · © 2026 VibeCat</sub>
+  <sub><a href="https://vibecat.app">vibecat.app</a> · © 2026 VibeCat</sub>
 </p>

@@ -26,7 +26,6 @@
 <p align="center">
   <a href="https://vibecat.app"><img alt="Website" src="https://img.shields.io/badge/%EA%B3%B5%EC%8B%9D-vibecat.app-4DA8FF?style=flat-square&labelColor=15171c"></a>
   <a href="https://vibecat.app/#download"><img alt="Download" src="https://img.shields.io/badge/%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C-Windows%2011-4DD9A8?style=flat-square&labelColor=15171c"></a>
-  <a href="https://vibecat.app/#pricing"><img alt="License" src="https://img.shields.io/badge/%EC%9D%BC%ED%9A%8C%EC%84%B1-USD%2021.99-FFB347?style=flat-square&labelColor=15171c"></a>
   <a href="https://vibecat.app/transparency/"><img alt="Transparency" src="https://img.shields.io/badge/%ED%88%AC%EB%AA%85%EC%84%B1%20%EB%B3%B4%EA%B3%A0%EC%84%9C-7B7BD1?style=flat-square&labelColor=15171c"></a>
 </p>
 
@@ -139,5 +138,5 @@
   여러 개의 코딩 에이전트를 동시에 돌리는 Windows 개발자를 위해.
 </p>
 <p align="center">
-  <sub><a href="https://vibecat.app">vibecat.app</a> · 3 일 로컬 평가판 · 일회성 USD 21.99 · © 2026 VibeCat</sub>
+  <sub><a href="https://vibecat.app">vibecat.app</a> · © 2026 VibeCat</sub>
 </p>

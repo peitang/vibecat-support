@@ -26,7 +26,6 @@
 <p align="center">
   <a href="https://vibecat.app"><img alt="Website" src="https://img.shields.io/badge/website-vibecat.app-4DA8FF?style=flat-square&labelColor=15171c"></a>
   <a href="https://vibecat.app/#download"><img alt="Download" src="https://img.shields.io/badge/download-Windows%2011-4DD9A8?style=flat-square&labelColor=15171c"></a>
-  <a href="https://vibecat.app/#pricing"><img alt="License" src="https://img.shields.io/badge/one--time-USD%2021.99-FFB347?style=flat-square&labelColor=15171c"></a>
   <a href="https://vibecat.app/transparency/"><img alt="Transparency" src="https://img.shields.io/badge/transparency-report-7B7BD1?style=flat-square&labelColor=15171c"></a>
 </p>
 
@@ -139,5 +138,5 @@ For bugs, use VibeCat's **Create and Upload Support Bundle** action and paste on
   Made for Windows developers who run more than one coding agent at a time.
 </p>
 <p align="center">
-  <sub><a href="https://vibecat.app">vibecat.app</a> · 3-day local trial · one-time USD 21.99 · © 2026 VibeCat</sub>
+  <sub><a href="https://vibecat.app">vibecat.app</a> · © 2026 VibeCat</sub>
 </p>

@@ -26,7 +26,6 @@
 <p align="center">
   <a href="https://vibecat.app"><img alt="Website" src="https://img.shields.io/badge/%E5%85%AC%E5%BC%8F-vibecat.app-4DA8FF?style=flat-square&labelColor=15171c"></a>
   <a href="https://vibecat.app/#download"><img alt="Download" src="https://img.shields.io/badge/%E3%83%80%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%89-Windows%2011-4DD9A8?style=flat-square&labelColor=15171c"></a>
-  <a href="https://vibecat.app/#pricing"><img alt="License" src="https://img.shields.io/badge/%E8%B2%B7%E3%81%84%E5%88%87%E3%82%8A-USD%2021.99-FFB347?style=flat-square&labelColor=15171c"></a>
   <a href="https://vibecat.app/transparency/"><img alt="Transparency" src="https://img.shields.io/badge/%E9%80%8F%E6%98%8E%E6%80%A7%E5%A0%B1%E5%91%8A-7B7BD1?style=flat-square&labelColor=15171c"></a>
 </p>
 
@@ -139,5 +138,5 @@
   複数のコーディングエージェントを同時に動かす Windows 開発者のために。
 </p>
 <p align="center">
-  <sub><a href="https://vibecat.app">vibecat.app</a> · 3 日間ローカル試用 · 買い切り USD 21.99 · © 2026 VibeCat</sub>
+  <sub><a href="https://vibecat.app">vibecat.app</a> · © 2026 VibeCat</sub>
 </p>
