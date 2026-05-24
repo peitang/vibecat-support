@@ -21,8 +21,8 @@ body:
     id: os-version
     attributes:
       label: OS version
-      description: Required. Include Windows/macOS version and build if you know it.
-      placeholder: "Windows 11 24H2 build 26100 / macOS 15.5"
+      description: Required. Include Windows version and build if you know it.
+      placeholder: "Windows 11 24H2 build 26100"
     validations:
       required: true
   - type: dropdown
@@ -31,14 +31,14 @@ body:
       label: CLI/tool involved
       description: Required. Pick the main tool affected by this issue.
       options:
+        - Aider
         - Claude Code
         - Codex CLI
-        - Gemini CLI
-        - Aider
         - Cursor
-        - VS Code
-        - VibeCat app only
+        - Gemini CLI
         - Other / not sure
+        - VibeCat app only
+        - VS Code
     validations:
       required: true
   - type: dropdown
@@ -47,15 +47,13 @@ body:
       label: Terminal or developer app
       description: Required. Pick where the issue happened.
       options:
-        - Windows Terminal
-        - PowerShell
         - Command Prompt
-        - VS Code terminal
         - Cursor terminal
-        - WezTerm
-        - macOS Terminal
-        - iTerm2
         - Other / not sure
+        - PowerShell
+        - VS Code terminal
+        - WezTerm
+        - Windows Terminal
     validations:
       required: true
   - type: textarea
